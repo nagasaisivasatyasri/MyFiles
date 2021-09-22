@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+H:\eclipse files\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\382146349.index
+\springbootdemo\src\main\resources
+H:\eclipse files\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3457458437.index
+\__Project_Pharmacy-Management-System-JSP\src
+H:\eclipse files\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1230239448.index
+\__Project_Pharmacy-Management-System-JSP\src

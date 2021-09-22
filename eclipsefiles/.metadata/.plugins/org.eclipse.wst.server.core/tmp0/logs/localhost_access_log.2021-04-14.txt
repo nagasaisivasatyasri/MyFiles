@@ -1,0 +1,14 @@
+127.0.0.1 - - [14/Apr/2021:16:21:05 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:12 +0530] "GET /FeeManagementBootstrap/ HTTP/1.1" 200 2231
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:12 +0530] "GET /FeeManagementBootstrap/resources/bootstrap.min.css HTTP/1.1" 200 121260
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:12 +0530] "GET /FeeManagementBootstrap/style.css HTTP/1.1" 200 267
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:12 +0530] "GET /FeeManagementBootstrap/resources/jquery.min.js HTTP/1.1" 200 95992
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:12 +0530] "GET /FeeManagementBootstrap/resources/bootstrap.min.js HTTP/1.1" 200 36816
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:21:42 +0530] "POST /FeeManagementBootstrap/AccountantLogin HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:00 +0530] "POST /FeeManagementBootstrap/AccountantLogin HTTP/1.1" 404 786
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:04 +0530] "GET /FeeManagementBootstrap/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:04 +0530] "GET /FeeManagementBootstrap/resources/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:04 +0530] "GET /FeeManagementBootstrap/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:04 +0530] "GET /FeeManagementBootstrap/resources/jquery.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:04 +0530] "GET /FeeManagementBootstrap/resources/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2021:16:35:07 +0530] "GET /FeeManagementBootstrap/index.html HTTP/1.1" 200 2231
