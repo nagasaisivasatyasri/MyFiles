@@ -1,0 +1,59 @@
+<html>
+<head>
+	</head>
+	<body>
+		<p>Hello all</p>
+		<!-- <button onclick="fib()">click me to see fibonnaci</button>
+		<button onclick="fibrec(5)">click me for recursion of fibnoacci</button>
+
+		 -->
+		 <button onclick="isprime(45)">Click to see prime or not</button>
+		 <script>
+		 	function isprime(n){
+		 	var  flag=true;
+		 		for(var i=2;i<n/2;i++){
+		 			if(n%i==0){
+		 			flag=false;
+		 			break;
+		 		}
+		 		}
+		 		if(flag==true){
+		 			document.write("prime");
+		 		}
+		 		else
+		 		{
+		 			document.write("Not prime");
+		 		}
+		 	}
+			// function fib(){
+			// 	var n=0,n1=1;
+			// 	var c=0;
+			// 	document.write(n+" ");
+			// 	for(var i=2;i<=10;i++)
+			// 	{
+			// 		c=n+n1;
+			// 		n=n1;
+			// 		n1=c;
+			// 		document.write(c+" ");
+			// 	}
+			// }
+			// function fibrec(n){
+			// 	if(n==0)
+			// 	{
+			// 		return 0;
+			// 	}
+			// 	else if(n==1 || n==2)
+			// 	{
+			// 		return 1;
+			// 	}
+			// 	else
+			// 	{
+			// 		return fibrec(n-1)+fibrec(n-2);
+			// 	}
+			// }
+			// var c=fibrec(6);
+			// document.write(c);
+		</script>
+	</body>
+
+</html>

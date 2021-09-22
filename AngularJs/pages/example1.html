@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+section{
+	display: flex;
+	}
+img{
+	height:100px;
+}
+section div:first-child{
+	flex:1;
+	height:100px;
+}
+section div:nth-child(2){
+	flex:1;
+}
+section div:last-child{
+	flex:2;
+	font-size: 30px;
+	align-self: center;
+}
+nav ul{
+			display: flex;
+			list-style: none;
+		}
+		nav li {
+			flex:1;
+			padding:30px;
+			font-size: 30px;
+		}
+		nav li a{
+			text-decoration: none;
+			padding:10px;
+			background: orange;
+			color:black;
+		}
+		nav li a:hover{
+			background:white;
+			text-transform: scale(0.5,0.7);
+	
+		}
+		nav{
+			width:100%;
+		}
+		.tabcontainer{
+			width: 100%;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+		}
+		.tabcontainer div{
+			display: none;
+		}
+		section div{
+	  text-shadow: 2px 2px 5px orange;
+	  color: orange;
+	  	}
+	</style>
+		
+	</head>
+	<body>
+		<script>
+function openCity(evt,cityName) {
+  var i;
+  var x = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+}
+</script>
+		<hr>
+		<section class="container">
+			<span><div><img src="../images/925917582s.jpg" alt=""></div></span>
+			<div></div>
+			<div>Sri Saraswathi sisu mandir</div>
+		</section>
+		<hr>
+		<nav class="navbar">
+				 <ul>
+					<li><a class="tablinks" onmouseover ="openCity(event,'Home')">Home</a>
+					</li>
+					<li><a  class="tablinks" onmouseover="openCity(event,'Services')">Services</a>
+					</li>
+					<li><a class="tablinks" onmouseover="openCity(event,'Branches')">Branches</a>
+					</li>
+					<li><a class="tablinks"  onmouseover="openCity(event,'Login')" >Login</a>
+					</li>
+					<li><a class="tablinks" onmouseover="openCity(event,'Register')">Register</a>
+					</li>	
+				</ul>
+			</nav>
+ 	 	<hr>
+ 	 	<div class="tabcontainer">
+ 	 		<div id="Home" class="tabcontent">
+ 	 			<form>
+ 	 			Enter your name:<input type="text" name="name">
+ 	 			</form>
+ 	 		</div>
+ 	 		<div id="Services" class="tabcontent">
+ 	 			<p> services</p>
+ 	 		</div>
+ 	 		<div id="Branches" class="tabcontent">
+ 	 			<p>branch services</p>
+ 	 		</div>
+ 	 		<div id="Login" class="tabcontent">
+ 	 			<h1>Login</h1>
+ 	 			<form>
+ 	 			Enter Email Id:<input type="email" name="email" required="need to enter email here!">
+ 	 			Enter Password:<input type="Password" name="Password" required="need to enter correct password!">
+ 	 			<input type="submit">
+ 	 		</form>
+ 	 		</div>
+ 	 		<div id="Register" class="tabcontent">
+ 	 			<p>register services</p>
+ 	 		</div>
+
+ 	 	</div>
+ 	 <!-- 	<div id="slideshow">
+    <div class="slide-wrapper">
+  
+      Define each of the slides
+         and write the content -->
+  <!--     <div class="slide">
+        <h1 class="slide-number">
+          GeeksforGeeks
+        </h1>
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          A computer science portal
+        </h1>
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          This is an example of
+        </h1>
+      </div>
+      <div class="slide">
+        <h1 class="slide-number">
+          Slideshow with HTML and CSS only
+        </h1>
+      </div>
+    </div>
+  </div>
+ --> 
+	</body>
+</html>

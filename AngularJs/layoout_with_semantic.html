@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>Home - HTML + CSS</title>
+	<style>
+		header{
+			
+			height :100px;
+			display:flex;
+		}
+		header div{
+			display:flex;
+		}
+		header nav{
+			flex:3;
+		}
+		header nav ul{
+			display:flex;
+			list-style: none;
+			
+		}
+		header nav ul li,.maincontainer div{
+			flex:1;
+			
+			
+		}
+		nav li a{
+			text-decoration: none;
+			font-size: 30px;
+			color:gold;
+		}
+		section img{
+			width:100%;
+		}
+		.maincontainer{
+			display:flex;
+			border: 1px solid #ccc;
+		
+		}
+	
+		.maincontainer div:nth-child(2){
+			flex:2;
+
+		}
+		.left ul{
+			list-style: none;
+				padding: 15px;
+
+		}
+		.left li,footer div ul{
+	border-bottom:1px solid #ccc;
+		}
+		.left ul li a,footer div ul a{
+			text-decoration: none;
+			color:gold;
+			
+		}
+		footer{
+		border:1px solid #ccc;
+		background-color: #000;	
+		display:flex;
+		}
+		footer div{
+			flex:1;
+		}
+		footer div  h5{
+			color:white;
+		}
+	</style>
+	</head>
+	<body>
+		<section>
+			<header>
+				<div><img src="C:\Users\HP\Downloads\download.jpg" alt=""></div>
+				<nav>
+					
+					<ul>
+
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li style="flex:1;">
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Clients</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#">Branches</a>
+						</li>
+					</ul>
+				</nav>
+
+
+			</header>
+			<section class="slider"><img src="http://3.bp.blogspot.com/-NOBEY0xHQRM/VbuOaHVcHuI/AAAAAAAADs8/QQvZCjhjRUw/s1600/Inspirational%2BQuotes%2Bby%2BAbdul%2BKalam.jpg"></section>
+			<section class="maincontainer">
+				<div class="left">
+						<ul>
+
+						<li>
+							<a href="#">CSS</a>
+						</li>
+						<li>
+							<a href="#">HTML</a>
+						</li>
+						<li>
+							<a href="#">JAVA</a>
+						</li>
+						<li>
+							<a href="#">CPP</a>
+						</li>
+						<li>
+							<a href="#">JS</a>
+						</li>
+						<li>
+							<a href="#">JSON</a>
+						</li>
+					</ul>
+				</div>
+					
+				</div>
+				<div>Main sidebar</div>
+				<div style="flex:1">Right sidebar</div>
+
+			</section>
+			<footer>
+				<div>
+					<h5>Organization</h5>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">servoces</a></li>
+					</ul>
+				</div>
+				<div>
+					<h5>Organization</h5>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">servoces</a></li>
+					</ul>
+	
+				</div>
+				<div>
+					<h5>Organization</h5>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">servoces</a></li>					</ul>
+	
+				</div>
+				<div>
+					<h5>Organization</h5>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Clients</a></li>
+						<li><a href="#">servoces</a></li>					</ul>
+	
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>

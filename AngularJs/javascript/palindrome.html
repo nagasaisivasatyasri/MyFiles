@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+	<script>
+		function palindrome(n)
+		{
+			n=parseInt(n);
+			var rem=0,temp=n,sum=0;
+			while(n>0){
+				rem=n%10;
+				sum=(sum*10)+rem;
+				n=parseInt(n/10);
+				
+			}
+			if(temp==sum)
+			{
+				document.write("palindrome");
+			}
+			else
+			{
+				document.write("Not a palindrome");
+			}
+		}
+		palindrome(prompt("Enter a number"));
+		document.write();
+		function ispali(s){
+			
+    return s == s.split("").reverse().join("");
+		}
+		var c=ispali(prompt("Enter a string"));
+		if(c){
+		document.write("palindrome");	
+		}
+		else
+		{
+			document.write("Not a palindrome");
+		}
+		
+	</script>
+	</body>
+</html>
